@@ -18,5 +18,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^api/workout/', include('playlists.api_urls', namespace='workout_api')),
-    url(r'^api/workout/', include('playlists.urls', namespace='workout'))
+    url(r'^workout/', include('playlists.urls', namespace='workout'))
 ]

@@ -42,7 +42,7 @@ class Screen(models.Model):
     type = models.CharField(max_length=10, choices=MEDIA_TYPES)
     video = models.ForeignKey(Video, blank=True, null=True)
     order = models.IntegerField()
-    description = models.TextField()    # if this is a
+    description = models.TextField()    # if this is a splash screen
     timeout = models.IntegerField(null=True, blank=True)
 
     def __unicode__(self):
