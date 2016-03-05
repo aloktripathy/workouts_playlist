@@ -40,3 +40,5 @@
 	]
 }
 ```
+
+admin password: target500k
